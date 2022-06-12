@@ -91,10 +91,9 @@ li {
 
 .button {
     border: none;
-    background-color: transparent;
     cursor: pointer;
     font-family: inherit;
-    
+
 }
         
 
@@ -102,6 +101,7 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    background-color: #FFFFFF;
 }
 
 
