@@ -64,6 +64,12 @@ body {
     display: none
 }
 
+/* Скрываем h2 в index.html */
+
+.section-title {
+    display: none
+}
+
 
 /* Убираем маркеры */
 li {
