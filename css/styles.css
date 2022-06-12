@@ -29,7 +29,8 @@ body {
 
 
 .header-studio {
-     
+    font-size: 26px;
+    line-height: 1.2;
     font-weight: 700;
     font-family: 'Raleway',
             sans-serif;
@@ -37,7 +38,8 @@ body {
 }
 
 .header-web {
-    
+    font-size: 26px;
+    line-height: 1.2;
     font-weight: 700;
     font-family: 'Raleway',
         sans-serif;
@@ -59,6 +61,13 @@ body {
     line-height: 1.1px;
 }
 
+/* Скрываем подчеркивание ссылок */
+
+a {
+    text-decoration: none;
+}
+
+
 /* Скрываем h1 */
 .List-works {
     display: none
@@ -66,7 +75,7 @@ body {
 
 /* Скрываем h2 в index.html */
 
-.section-title {
+.hide-title {
     display: none
 }
 
@@ -85,17 +94,26 @@ li {
     background-color: transparent;
     cursor: pointer;
     font-family: inherit;
-    color: inherit;
+    
+}
         
 
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
+
+
+
+
 
 /* Текст кнопок */
 
 .button-text {
 font-weight: 500;
 font-size: 16px;
-line-height: 1.6px;
+line-height: 1.6;
 }
 
 /* hover focus button */
@@ -104,8 +122,8 @@ line-height: 1.6px;
 .button:focus {
     background-color: var(--current-color);
     color: var(--current-color);
-    background: var(--button-color)
-    
+    background-color: #FFFFFF;
+   
 }
 
 /* hover focus ссылок */
@@ -116,7 +134,8 @@ line-height: 1.6px;
     
     background-color: var(--current-color);
     color: var(--current-color);
-    background: var(--button-color)
+    
+    background-color: #FFFFFF;
 
 }
 
@@ -141,6 +160,7 @@ line-height: 1.6px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7px;
+    
 
 }
 
@@ -183,20 +203,106 @@ line-height: 1.6px;
 
 .footer-web {
     color: var(--main-light-color);
+    font-size: 26px;
+    line-height: 1.2;
+    font-family: 'Raleway',
+            sans-serif;
 }
 
 /* Цвет логотипа */
 
 .footer-studio {
     color: var(--current-color);
+    font-size: 26px;
+    line-height: 1.2;
+    font-family: 'Raleway',
+            sans-serif;
+}
+
+
+/* WebStudio Styles */
+
+.hero-title {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    color: var(--main-color)
+}
+
+
+/*.hero-section {
+
+    position: absolute;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+    
+        background: #2F303A;
+}
+*/
+
+.hero-button {
+   
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background-color: #2196F3;
+    
+        color: #FFFFFF;
+}
+
+
+.section-title {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--main-color)
+}
+
+.section-paragraph {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--secondary-color);
+}
+
+
+.title-work {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--main-color)
+}
+
+.img-tile {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--main-color);
+}
+
+.foto-paragraph {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--secondary-color)
 }
 
 
 
         
-        
-                
-                        
-            
-
-                
+    
