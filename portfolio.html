@@ -6,23 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 
 <body>
 
-    <header>
+    <header class="header">
 
         <nav>
 
-            <a href="">WebStudio</a>
+            <a href="" class="header-web">Web<span class="header-studio">Studio</span></a>
 
             <ul>
 
-                <li> <a href="./index.html">Студия</a> </li>
-                <li> <a href="">Портфолио</a> </li>
-                <li> <a href="">Контакты</a> </li>
+                <li> <a class="link list-header" href="./index.html">Студия</a> </li>
+                <li> <a class="link list-header" href="">Портфолио</a> </li>
+                <li> <a class="link list-header" href="">Контакты</a> </li>
 
             </ul>
 
@@ -32,13 +41,13 @@
 
             <li>
 
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link heder-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
 
             </li>
 
             <li>
 
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link heder-info" href="tel:+380961111111">+38 096 111 11 11</a>
 
             </li>
 
@@ -49,9 +58,9 @@
     
 <main>
 
-    <section>
+    <section class="section">
     
-        <h1 class="Portfolio">Портфолио</h1>
+        <h1 class="List-works">Список работ</h1>
 
 <ul>
 
@@ -86,8 +95,8 @@
         <a href="">
        
             <img src="./images/notebook.jpg" alt="notebook" width="370">
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="link list-title">Технокряк</h2>
+            <p class="link paragraph">Веб-сайт</p>
        
         </a>
      
@@ -98,8 +107,8 @@
         <a href="">
 
             <img src="./images/poster.jpg" alt="poster" width="370">
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="link list-title">Постер New Orlean vs Golden Star</h2>
+            <p class="link paragraph">Дизайн</p>
         
         </a>
 
@@ -110,8 +119,8 @@
     <a href="">
        
         <img src="./images/restaurant.jpg" alt="restaurant" width="370">
-        <h2>Ресторан Seafood</h2>
-        <p>Приложение</p>
+        <h2 class="link list-title">Ресторан Seafood</h2>
+        <p class="link paragraph">Приложение</p>
         
     </a>
 
@@ -123,8 +132,8 @@
         <a href="">
             
             <img src="./images/headphones.jpg" alt="headphones" width="370">
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="link list-title">Проект Prime</h2>
+            <p class="link paragraph">Маркетинг</p>
             
         </a>
 
@@ -134,8 +143,8 @@
         <a href="">
         
             <img src="./images/box.jpg" alt="Box" width="370">
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <h2 class="link list-title">Проект Boxes</h2>
+            <p class="link paragraph">Приложение</p>
             
         </a>
 
@@ -147,8 +156,8 @@
         <a href="">
         
             <img src="./images/pc.jpg" alt="pc" width="370">
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="link list-title">Inspiration has no Borders</h2>
+            <p class="link paragraph">Веб-сайт</p>
             
         </a>
 
@@ -159,8 +168,8 @@
         <a href="">
         
             <img src="./images/book.jpg" alt="book" width="370">
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="link list-title">Издание Limited Edition</h2>
+            <p class="link paragraph">Дизайн</p>
             
         </a>
 
@@ -171,8 +180,8 @@
         <a href="">
         
             <img src="./images/leiba.jpg" alt="leiba" width="370">
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <h2 class="link list-title">Проект LAB</h2>
+            <p class="link paragraph">Маркетинг</p>
             
         </a>
 
@@ -184,8 +193,8 @@
         <a href="">
         
             <img src="./images/application.jpg" alt="application" width="370">
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <h2 class="link list-title">Growing Business</h2>
+            <p class="link paragraph">Приложение</p>
             
         </a>
 
@@ -205,15 +214,15 @@
 
 
 
-    <footer>
-        <a href="">WebStudio</a>
+    <footer class="footer">
+        <a href="" class="footer-web">Web<span class="footer-studio">Studio</span></a>
         <address id="contacts">
             <ul>
-                <li><a href="https://goo.gl/maps/E31LjMS4C6WuwfjZA" target="_blank"
+                <li><a class="link link-address" href="https://goo.gl/maps/E31LjMS4C6WuwfjZA" target="_blank"
                         rel="noopener nofollow noreferrer">г. Киев,
                         пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li><a class="link address" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="link address" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>

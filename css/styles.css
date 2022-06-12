@@ -1,0 +1,196 @@
+:root {
+    /* Fonts */
+    --main-font-family: 'Roboto',
+        sans-serif;
+
+    /* Colors */
+    --main-color: #212121;;
+    --main-light-color: #FFFFFF;
+    --current-color: #2196F3;
+    --secondary-color: #757575;
+    --footer-color: #2F303A;
+    --button-color: #F5F4FA;
+    
+    
+}
+
+body {
+    
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-color);
+}
+
+ /* Common Styles */
+
+
+
+
+.header-studio {
+     
+    font-weight: 700;
+    font-family: 'Raleway',
+            sans-serif;
+    color: var(--current-color)
+}
+
+.header-web {
+    
+    font-weight: 700;
+    font-family: 'Raleway',
+        sans-serif;
+    color: var(--main-color)
+}
+
+
+.header {
+    background-color: var(--main-light-color);
+
+}
+
+/* Ссылка хедера. */
+
+.list-header {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1px;
+}
+
+/* Скрываем h1 */
+.List-works {
+    display: none
+}
+
+
+/* Убираем маркеры */
+li {
+    list-style-type: none;
+
+}
+
+/* Дефолтные параметры кнопки */
+
+
+.button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+        
+
+}
+
+/* Текст кнопок */
+
+.button-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6px;
+}
+
+/* hover focus button */
+
+.button:hover,
+.button:focus {
+    background-color: var(--current-color);
+    color: var(--current-color);
+    background: var(--button-color)
+    
+}
+
+/* hover focus ссылок */
+
+
+.link:hover,
+.linl:focus {
+    
+    background-color: var(--current-color);
+    color: var(--current-color);
+    background: var(--button-color)
+
+}
+
+
+
+/* Ссылка address footer */
+
+.link-address {
+
+    color: var(--main-light-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
+}
+
+
+/* info footer  */
+
+.address {
+
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
+
+}
+
+/* Заголовок ссылки */
+
+.list-title {
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    color: var(--main-color);
+}
+
+/* Параграф ссылки  */
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8px;
+    color: var(--secondary-color);
+}
+
+/* Heder info  */
+
+.heder-info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--secondary-color);
+}
+
+
+/* Фон футера */
+
+.footer {
+    background: #2F303A;
+}
+
+/* Цвет логотипа */
+
+.footer-web {
+    color: var(--main-light-color);
+}
+
+/* Цвет логотипа */
+
+.footer-studio {
+    color: var(--current-color);
+}
+
+
+
+        
+        
+                
+                        
+            
+
+                
