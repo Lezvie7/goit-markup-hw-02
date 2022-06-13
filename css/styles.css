@@ -55,11 +55,16 @@ body {
 /* Ссылка хедера. */
 
 .list-header {
-    color: var(--main-color);
-    font-weight: 500;
+    color:var(--main-color)
+    font-weight 500px;
     font-size: 14px;
-    line-height: 1.1px;
+    line-height: 1.1;
+
 }
+
+
+
+  
 
 /* Скрываем подчеркивание ссылок */
 
@@ -108,6 +113,7 @@ li {
 
 
 
+
 /* Текст кнопок */
 
 .button-text {
@@ -121,16 +127,19 @@ line-height: 1.6;
 .button:hover,
 .button:focus {
     background-color: var(--current-color);
-    color: var(--current-color);
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    
    
 }
+
+
 
 /* hover focus ссылок */
 
 
 .link:hover,
-.linl:focus {
+.linl:focus
+ {
     
     background-color: var(--current-color);
     color: var(--current-color);
@@ -155,6 +164,7 @@ line-height: 1.6;
 /* info footer  */
 
 .address {
+    
 
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
@@ -162,6 +172,29 @@ line-height: 1.6;
     line-height: 1.7px;
     
 
+}
+
+
+.link-address {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+}
+
+/* Hover footer address  */
+
+.address:hover,
+.address:focus {
+    color: var(--current-color)
+}
+
+/* Hover address  */
+
+.link-address:hover,
+.linl-address:focus {
+    color: var(--current-color);
+    
 }
 
 /* Заголовок ссылки */
@@ -227,13 +260,19 @@ line-height: 1.6;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3;
-    color: var(--main-color)
+    color: var(--main-light-color);
+    /* Текс большими буквами */
+    text-transform:uppercase
+    
 }
 
 
-/*.hero-section {
 
-    position: absolute;
+
+
+.hero-section {
+
+    
         width: 1600px;
         height: 600px;
         left: 0px;
@@ -267,6 +306,17 @@ line-height: 1.6;
     font-size: 14px;
     line-height: 1.1;
     color: var(--main-color)
+    
+
+}
+
+.section-title {
+    text-transform:uppercase
+}
+
+
+.list-header:current {
+    color: var(--current-color);
 }
 
 .section-paragraph {
