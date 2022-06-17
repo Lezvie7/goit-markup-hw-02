@@ -55,7 +55,7 @@ body {
 /* Ссылка хедера. */
 
 .list-header {
-    color:var(--main-color)
+    color: var(--main-color)
     font-weight 500px;
     font-size: 14px;
     line-height: 1.1;
@@ -369,7 +369,8 @@ line-height: 1.6;
 
 }
 
-
-
+/*.header-web .list-header:current {
+    color: red;
+}
         
     
