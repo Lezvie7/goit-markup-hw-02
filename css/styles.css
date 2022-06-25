@@ -34,7 +34,7 @@ body {
     font-weight: 700;
     font-family: 'Raleway',
             sans-serif;
-    color: var(--current-color)
+    color: var(--main-color)
 }
 
 .header-web {
@@ -43,7 +43,7 @@ body {
     font-weight: 700;
     font-family: 'Raleway',
         sans-serif;
-    color: var(--main-color)
+    color: var(--current-color)
 }
 
 
@@ -235,7 +235,7 @@ line-height: 1.6;
 /* Цвет логотипа */
 
 .footer-web {
-    color: var(--main-light-color);
+    color: var(--current-color);
     font-size: 26px;
     line-height: 1.2;
     font-family: 'Raleway',
@@ -245,7 +245,7 @@ line-height: 1.6;
 /* Цвет логотипа */
 
 .footer-studio {
-    color: var(--current-color);
+    color: var(--main-light-color);
     font-size: 26px;
     line-height: 1.2;
     font-family: 'Raleway',
