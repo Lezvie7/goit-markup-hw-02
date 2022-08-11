@@ -1,178 +1,179 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/stile.css" />
+  </head>
 
-
-<body>
-
- <header>
-
-<nav>
-   
+  <body>
+    <main>
+      <header>
+        <!-- Навигация сайта. -->
+        <nav>
     <a href="" class="header-web">Web<span class="header-studio">Studio</span></a>
+          <ul>
+            <li><a class="link list-header caren-studio" href="./index.html">Студія</a></li>
+            <li><a class="link list-header" href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="link list-header" href="">Контакти</a></li>
+          </ul>
+        </nav>
 
-<ul>
+        <!-- Контакты. -->
+        <ul>
+          <li><a class="link heder-info" href="mail:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link heder-info" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </header>
 
-    <li> <a class="link list-header caren-studio" href="">Студия</a> </li>
-    <li> <a class="link list-header" href="./portfolio.html">Портфолио</a> </li>
-    <li> <a class="link list-header" href="">Контакты</a> </li>
+      <!-- Герой -->
+      <section class="hero-section">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-button" type="button">Замовити послугу</button>
+      </section>
 
-</ul>
+      <!-- Преимущества -->
+      <section>
+        <h2 class="visually-hidden">Наші особливості</h2>
+        <!-- Скрыт в CSS. -->
+        <ul>
+          <li>
+            <h3 class="section-title">Уага до деталей</h3>
+            <p class="section-paragraph">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li>
+            <h3 class="section-title">Пунктуальність</h3>
+            <p class="section-paragraph">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
 
+          <li>
+            <h3 class="section-title">Планування</h3>
+            <p class="section-paragraph">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
 
-</nav>
+          <li>
+            <h3 class="section-title">Сучасні технології</h3>
+            <p class="section-paragraph">
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-<ul>
+      <!-- Чем мы занимаемся -->
+      <section>
+        <h2 class="title-work">Чим ми займаємося</h2>
+        <ul>
+          <li>
+            <img
+              src="./img/work-for-computers.jpg"
+              alt="work-for-computers"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="./img/working-on-a-laptop.jpg"
+              alt="working-on-a-laptop"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="./img/working-on-a-tablet.jpg"
+              alt="working-on-a-tablet"
+              width="370"
+              height="294"
+            />
+          </li>
+        </ul>
+      </section>
 
-    <li>
-
-        <a class="link heder-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
-
-    </li>
-
-    <li>
-
-        <a class="link heder-info" href="tel:+380961111111">+38 096 111 11 11</a>
-
-    </li>
-
-</ul>
-</header>
-
-<main>
-
-<section class="hero-section">
-    <h1 class="hero-title">
-        Эффективные решения для вашего бизнеса
-    </h1>
-    <button class="hero-button" type="button">Заказать услугу</button>
-    
-</section>
-
-<section>
-    
-    <h2 class="hide-title">Наши особенности</h2>
-    
-    <ul>
-        <li>
-            
-            <h3 class="section-title">Внимание к деталям</h3>
-            <p class="section-paragraph">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-       
-        </li>
-    
-    
-         <li>
-            
-            <h3 class="section-title">Пунктуальность</h3>
-            <p class="section-paragraph">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-        
-        </li>
-    
-
-        <li>
-            
-            <h3 class="section-title">Планирование</h3>
-            <p class="section-paragraph">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-        
-        </li>
-    
-
-        <li>
-            
-            <h3 class="section-title">Современные технологии</h3>
-            <p class="section-paragraph">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-        </li>
-
-    </ul>
-
-</section>
-
-<section>
-
-    <h2 class="title-work">Чем мы занимаемся</h2>
-
- <ul>
-
-    <li>
-        <img src="./images/Work-for-computers.jpg" alt="Разработка за компьютером" width="370" height="294">
-    </li>
-   
-    <li>
-        <img src="./images/Working-on-a-laptop.jpg" alt="Разработка за ноутбуком" width="370" height="294">
-    </li>
-
-    <li>
-        <img src="./images/Working-on-a-tablet.jpg" alt="Разработка за планшетом" width="370" height="294">
-    </li>
-    
-</ul>
-
-</section>
-
-<section>
-    <h2 class="title-work">Наша команда</h2>
-    <ul>
-        <li>
-            <img src="./images/employees/igor-demyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
-            <h3 class="img-tile">Игорь Демьяненко</h3>
+      <!-- Наша команда -->
+      <section class="section-team">
+        <h2 class="title-work">Наша команда</h2>
+        <ul class="cards-team">
+          <li>
+            <img
+              src="./img/igor-demyanenko.jpg"
+              alt="igor-demyanenko"
+              width="270"
+              height="260"
+            />
+            <h3 class="img-tile">Ігор Дем'яненко</h3>
             <p class="foto-paragraph">Product Designer</p>
-        </li>
-        
-        <li>
-            <img src="./images/employees/olga-repina.jpg" alt="Ольга Репина" width="270" height="260">
-            <h3 class="img-tile">Ольга Репина</h3>
+          </li>
+
+          <li>
+            <img
+              src="./img/olga-repina.jpg"
+              alt="olga-repina"
+              width="270"
+              height="260"
+            />
+            <h3 class="img-tile">Ольга Рєпіна</h3>
             <p class="foto-paragraph">Frontend Developer</p>
-        </li>
+          </li>
 
-        <li>
-            <img src="./images/employees/nikolai-tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
-            <h3 class="img-tile">Николай Тарасов</h3>
+          <li>
+            <img
+              src="./img/nikolai-tarasov.jpg"
+              alt="nikolai-tarasov"
+              width="270"
+              height="260"
+            />
+            <h3 class="img-tile">Микола Тарасов</h3>
             <p class="foto-paragraph">Marketing</p>
-        </li>
+          </li>
 
-        <li>
-            <img src="./images/employees/mikhail-ermakovjpg.jpg" alt="Михаил Ермаков" width="270" height="260">
-            <h3 class="img-tile">Михаил Ермаков</h3>
-            <p class="foto-paragraph">UI Designer</p>
-        </li>
+          <li>
+            <img
+              src="./img/mikhail-ermakovjpg.jpg"
+              alt="mikhail-ermakovjpg"
+              width="270"
+              height="260"
+            />
+            <h3 class="img-tile">Михайло Єрмаков</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
 
-    </ul>
-</section>
-
-</main>
-
-
-
-
-
-
-<footer class="footer">
+      <!-- Подвал -->
+      <footer class="footer">
     <a href="" class="footer-web">Web<span class="footer-studio">Studio</span></a>
     <address>
         <ul>
             <li><a class="link-address" href="https://goo.gl/maps/E31LjMS4C6WuwfjZA" target="_blank"
-                    rel="noopener nofollow noreferrer">г. Киев,
-                    пр-т Леси Украинки, 26</a></li>
-            <li><a class="address" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="address" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    rel="noopener nofollow noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li><a class="footer-info" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="footer-info" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
     </address>
 </footer>
-
-
-</body>
-
-
+    </main>
+  </body>
 </html>
