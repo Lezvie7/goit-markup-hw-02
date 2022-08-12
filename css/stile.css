@@ -9,13 +9,19 @@
   --secondary-color: #757575;
   --footer-color: #2f303a;
   --button-color: #f5f4fa;
+  --footer-info-color: rgba(255, 255, 255, 0.6);
+  --button-hero-bg-color: #188ce8;
+  --Complementary-1-color: #ececec;
+  --Complementary-2-color: #000000;
+  --Complementary-3-color: #eeeeee;
 }
 
 body {
   font-family: var(--main-font-family);
-  font-size: 16px;
+  font-size: 14px;
   color: var(--main-color);
   letter-spacing: 0.03em;
+  background-color: var(--main-light-color);
 }
 
 .header-studio {
@@ -61,7 +67,7 @@ body {
 /* info footer  */
 
 .footer-info {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-info-color);
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
@@ -121,6 +127,7 @@ li {
   color: var(--main-light-color);
   /* Текс большими буквами */
   text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .hero-section {
@@ -203,6 +210,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   background-color: var(--main-light-color);
 }
 
@@ -216,6 +224,7 @@ li {
 
 .button-section {
   background: var(--button-color);
+  color: var(--main-color);
 }
 
 /* Текст кнопок */
@@ -275,6 +284,7 @@ li {
 
 .hero-button:hover,
 .hero-button:focus {
+  background-color: var(--button-hero-bg-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
